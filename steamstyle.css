@@ -1,0 +1,58 @@
+:root {
+  --steamworks-yellow: #dea639;
+  --steamworks-black: #090909;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.site-header {
+  background-image: linear-gradient(to right,
+    var(--steamworks-yellow), var(--steamworks-black));
+  /* background: var(--steamworks-black); */
+  color: #fff;
+  padding: 0 5%;
+}
+
+.top-logo {
+  float: left;
+  margin: 10px 0;
+}
+
+.top-nav {
+  float: right;
+}
+
+.top-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.top-nav ul li {
+  display: inline;
+  font-size: 2em;
+  margin: 10px;
+}
+
+.top-nav ul li a {
+  text-decoration: none;
+  color: var(--steamworks-yellow);
+}
+
+.intro-section {}
+
+.intro-text {
+  float: left;
+}
+
+.video-section {
+  float: right;
+}
